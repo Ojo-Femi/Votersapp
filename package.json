@@ -1,0 +1,24 @@
+{
+  "name": "voteapp",
+  "version": "1.0.0",
+  "description": "This is me trying to build my own votes app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [
+    "Votes",
+    "App"
+  ],
+  "author": "Ojo-Femi Oma-Victor",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.12",
+    "mongoose": "^5.4.5",
+    "pusher": "^2.2.0",
+    "shortid": "^2.2.14"
+  }
+}
